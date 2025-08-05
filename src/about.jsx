@@ -63,27 +63,6 @@ function About() {
   return (
     <div className="w-screen min-h-screen flex flex-col md:flex-row items-center justify-center gap-10 px-6 py-16 relative bg-[#1a1206] text-white overflow-hidden">
 
-      {/* Top Horizontal Line */}
-      <div className="absolute top-10 left-[50px] right-0 h-[2px] bg-[#a68e5c]" />
-
-      {/* Bottom Horizontal Line */}
-      <div className="absolute bottom-10 left-[50px] right-0 h-[2px] bg-[#a68e5c]" />
-
-      {/* Left Decorative Curved Line (hidden on small screens) */}
-      <svg
-        className="hidden md:block absolute left-0 top-[82px] bottom-[82px] h-[calc(100%-164px)] w-[100px]"
-        viewBox="0 0 100 800"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M100 0 Q0 400 100 800"
-          stroke="#a68e5c"
-          strokeWidth="1.5"
-          fill="transparent"
-        />
-      </svg>
 
       {/* Main Content */}
       <div className="relative px-6 py-8 rounded shadow-md bg-transparent max-w-xl">
