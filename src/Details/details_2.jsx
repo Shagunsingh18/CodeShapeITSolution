@@ -4,10 +4,10 @@ import { useInView } from "react-intersection-observer";
 
 function Details_2() {
   // Hook to detect when each card enters the viewport
-  const [ref1, inView1] = useInView({ triggerOnce: true, threshold: 0.2 });
-  const [ref2, inView2] = useInView({ triggerOnce: true, threshold: 0.2 });
-  const [ref3, inView3] = useInView({ triggerOnce: true, threshold: 0.2 });
-  const [refForm, inViewForm] = useInView({ triggerOnce: true, threshold: 0.2 });
+  const [ref1, inView1] = useInView({ triggerOnce: false, threshold: 0.2 });
+  const [ref2, inView2] = useInView({ triggerOnce: false, threshold: 0.2 });
+  const [ref3, inView3] = useInView({ triggerOnce: false, threshold: 0.2 });
+  const [refForm, inViewForm] = useInView({ triggerOnce: false, threshold: 0.2 });
 
   // Animation variants for popup effect
   const popUpVariants = {
@@ -74,7 +74,7 @@ function Details_2() {
               Sunday: <span className="font-medium">12:00 PM – 11:00 PM</span>
             </p>
             <p className="text-sm">
-              🕯️ <span className="font-medium">Private dining</span> by reservation from{" "}
+              <span className="font-medium">Private dining</span> by reservation from{" "}
               <span className="font-medium">11:00 AM</span>.
             </p>
           </motion.div>
@@ -118,9 +118,9 @@ function Details_2() {
           <input
             type="email"
             placeholder="Enter your Gmail"
-            className="w-full max-w-39 px-2 py-2 text-base rounded-md text-white border-2 border-green-400 placeholder-gray-500 focus:outline-none"
+            className=" max-w-30 px-1 py-1 text-base rounded-md text-black border-2 border-green-400 placeholder-gray-500 focus:outline-none"
           />
-          <button className="hover:bg-yellow-500 text-white font-semibold text-base px-3 py-1 rounded-md shadow-md transition">
+          <button className="hover:bg-yellow-500 text-white font-semibold text-base px-1 py-1 rounded-md shadow-md transition">
             Sign In
           </button>
         </motion.div>

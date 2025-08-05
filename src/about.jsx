@@ -5,14 +5,14 @@ function About() {
     <div className="w-screen h-screen flex items-center justify-center px-8 relative bg-[#1a1206] text-white overflow-hidden">
 
       {/* Top Horizontal Line */}
-      <div className="absolute top-30 left-25 w-full h-[2px] bg-[#a68e5c]" />
+       <div className="absolute top-20 left-[100px] right-0 h-[2px] bg-[#a68e5c]" />
 
-      {/* Bottom Horizontal Line */}
-      <div className="absolute bottom-20 left-25 w-full h-[2px] bg-[#a68e5c]" />
+       {/* Bottom Horizontal Line */}
+      <div className="absolute bottom-20 left-[100px] right-0 h-[2px] bg-[#a68e5c]" />
 
       {/* Left Decorative Curved Line */}
       <svg
-        className="absolute left-0 top-[120px] bottom-[80px] h-[calc(100%-200px)] w-[100px]"
+        className="absolute left-0 top-[82px] bottom-[82px] h-[calc(100%-164px)] w-[100px]"
         viewBox="0 0 100 800"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

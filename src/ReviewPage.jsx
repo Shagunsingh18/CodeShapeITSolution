@@ -1,6 +1,7 @@
+
 import React from "react";
 import { motion } from "framer-motion";
-import { div } from "framer-motion/client";
+
 
 const reviews = [
   {
@@ -76,14 +77,14 @@ const ReviewPage = () => {
 
   return (
     <div className="bg-red-100">
-        <div className="relative translate-y-17 min-h-screen w-screen overflow-hidden px-12 py-20">
-      <h1 className="text-5xl font-bold text-center mb-16 text-black font-serif">
+        <div className="relative  min-h-screen w-screen overflow-hidden pt-30">
+      <h1 className="text-5xl font-bold text-center translate-y-20 text-black font-serif">
         Guest Reviews
       </h1>
 
       <div
-        className="relative font-bold w-full h-[90vh]"
-        style={{ maxWidth: "100vw", maxHeight: "90vh" }}
+        className="relative translate-y-20 font-bold w-full h-[90vh]"
+        style={{ maxWidth: "100vw", maxHeight: "80vh" }}
       >
         {reviews.map((review, index) => {
           // Random positions inside container with some margins
@@ -142,4 +143,4 @@ const ReviewPage = () => {
   );
 };
 
-export default ReviewPage;
+export default ReviewPage;        

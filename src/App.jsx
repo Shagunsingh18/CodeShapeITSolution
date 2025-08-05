@@ -26,7 +26,8 @@ function ScrollSections() {
   return (
     <div className="app ">
       {/* Navbar */}
-      <nav className="navbar -translate-x-4 backdrop-blur-xs  font-bold">
+    
+      <nav className="navbar -translate-x-4 backdrop-blur-sm  font-bold">
         <button onClick={() => navigate('menu')}>View Menu</button>
         <button onClick={() => navigate('reserve_table')}>Reserve a Table</button>
         <button onClick={() => scrollToSection('about')}>Explore Our Story</button>
@@ -66,5 +67,4 @@ export default function App() {
     </Router>
   );
 }   
-
 

@@ -23,7 +23,7 @@ function Navigation_page() {
       style={{ backgroundImage: "url('/detail.jpg')" }}
     >
       <div
-        className="text-red-900 bg-black/40 rounded-md shadow-md"
+        className="text-red-900  rounded-md shadow-md"
         style={{
           padding: "10px",
           height: "90vh",
@@ -34,8 +34,8 @@ function Navigation_page() {
       >
         {/* Headline also animates when clicked */}
         <motion.h2
-          className="text-4xl translate-x-9 font-bold mb-4 cursor-pointer"
-          style={{ marginBottom: "40px", marginTop: "30px" }}
+          className="text-4xl translate-x-6 font-bold mb-4 cursor-pointer"
+          style={{ marginBottom: "40px", marginTop: "40px" }}
           whileTap={tapGlow}
         >
           Welcome to Spice Diaries
