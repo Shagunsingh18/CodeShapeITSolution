@@ -130,3 +130,4 @@ function Details_2() {
 }
 
 export default Details_2;
+
